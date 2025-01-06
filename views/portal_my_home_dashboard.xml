@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="portal_layout_custom" inherit_id="portal.portal_layout">
+        <!-- Ghi đè nội dung của template -->
+        <xpath expr="//div[@class='o_portal_wrap']" position="replace">
+            <!-- Thay thế bằng template OWL của bạn -->
+
+        </xpath>
+    </template>
+</odoo>
